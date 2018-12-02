@@ -185,7 +185,7 @@ th {
 }
 body {
   position: relative;
-  font-family: 'Monda', "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
   font-size: 14px;
   line-height: 2;
   color: #555;
@@ -216,7 +216,7 @@ h6 {
   padding: 0;
   font-weight: bold;
   line-height: 1.5;
-  font-family: 'Roboto Slab', 'Monda', "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
 }
 h2,
 h3,
@@ -493,7 +493,7 @@ pre,
 }
 pre,
 code {
-  font-family: 'PT Mono', consolas, Menlo, "PingFang SC", "Microsoft YaHei", monospace;
+  font-family: consolas, Menlo, "PingFang SC", "Microsoft YaHei", monospace;
 }
 code {
   padding: 2px 4px;
@@ -1129,9 +1129,9 @@ pre .javascript .function {
   display: inline-block;
   vertical-align: top;
   line-height: 36px;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: normal;
-  font-family: 'Lobster Two', 'Monda', "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
 }
 .site-subtitle {
   margin-top: 10px;
@@ -1220,7 +1220,7 @@ pre .javascript .function {
   opacity: 0;
 }
 .post-body {
-  font-family: 'Monda', "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
 }
 @media (max-width: 767px) {
   .post-body {
@@ -1498,7 +1498,7 @@ pre .javascript .function {
 .posts-expand .post-meta {
   margin: 3px 0 60px 0;
   color: #999;
-  font-family: 'Monda', "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
   font-size: 12px;
   text-align: center;
 }
@@ -1609,8 +1609,9 @@ pre .javascript .function {
 }
 .posts-expand .post-eof {
   display: block;
-  width: 0%;
-  height: 0px;
+  margin: 80px auto 60px;
+  width: 8%;
+  height: 1px;
   background: #ccc;
   text-align: center;
 }
@@ -1741,9 +1742,9 @@ pre .javascript .function {
   max-width: 120px;
   height: auto;
   border: 1px solid #eee;
+  border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
-  transition: 1.4s all;
 }
 .site-author-name {
   margin: 0;
@@ -1756,12 +1757,6 @@ pre .javascript .function {
   text-align: center;
   font-size: 13px;
   color: #999;
-}
-.site-author-image:hover {
-  -webkit-transform: rotate(360deg);
-  -moz-transform: rotate(360deg);
-  -ms-transform: rotate(360deg);
-  -transform: rotate(360deg);
 }
 .site-state {
   overflow: hidden;
@@ -1831,7 +1826,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #f7d54b;
+  background: #28f17a;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3129,21 +3124,19 @@ pre .javascript .function {
     margin: 8px 0 0;
   }
 }
-code {
-  color: #ff7600;
-  background: #fbf7f8;
-  margin: 2px;
+.posts-expand .post-eof {
+  display: block;
+  width: 0%;
+  height: 0px;
+  background: #ccc;
+  text-align: center;
 }
-.highlight,
-pre {
-  margin: 5px 0;
-  padding: 5px;
-  border-radius: 3px;
-}
-.highlight,
-code,
-pre {
-  border: 1px solid #d6d6d6;
+.posts-expand .post-eof {
+  display: block;
+  width: 0%;
+  height: 0px;
+  background: #ccc;
+  text-align: center;
 }
 .post-body p a {
   color: #0593d3;
