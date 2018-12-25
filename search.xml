@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[期末总结]]></title>
+    <url>%2F2018%2F12%2F25%2F%E6%9C%9F%E6%9C%AB%E6%80%BB%E7%BB%93%2F</url>
+    <content type="text"><![CDATA[还有几天就要考试了，发一下之前网页实训课的作业。网页作业]]></content>
+      <categories>
+        <category>第一学期总结.</category>
+      </categories>
+      <tags>
+        <tag>学期总结</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[java练习题(1)]]></title>
     <url>%2F2018%2F12%2F02%2Fjava%E7%BB%83%E4%B9%A0%E9%A2%98-1%2F</url>
     <content type="text"><![CDATA[分享一个 常见的 Java 的程序。可以利用循环来输出九九乘法表。 public static void main(String[] args) { /** * 打印99乘法表的程序 */ for(int i=1;i&lt;=9;i++) { for(int j=1;j&lt;=i;j++) { System.out.print(j+&quot;×&quot;+i+&quot;=&quot;+i*j+&quot;\t&quot;); } System.out.println(); }]]></content>
